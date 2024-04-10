@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>batman</title>
+  </head>
+  <body>
+    <!--------------------------------------1° cabeçalho ------------------------------------------------------>
+    <header>
+      <!---------------------------------- adicionando uma imagem -------------------------------------------------->
+
+      <!--------------------------------- nome da tag img é id="logo" ------------------------------------------------>
+      <img id="logo" src="./img/fundos-do-batman.jpg" alt="logo batman" />
+      <!------------------ criando nossa barra de navegação com as tags nav e lista com ul e li -------------------------->
+      <nav>
+        <!--------------------------------- criando nossa lista com os links das páginas ------------------------->
+        <ul>
+          <a href="./index.html"> <li>home</li></a>
+
+          <!-- link 2 -->
+          <a href="./contato.html"> <li>contato</li></a>
+
+          <!-- link 3 -->
+          <a href="./fotos.html"> <li>fotos</li></a>
+
+          <!-- link 4 -->
+          <a href="./localização.html"> <li>localização</li></a>
+        </ul>
+      </nav>
+    </header>
+    <!-- cabeçalho finalizado -->
+
+    <!------------------------------ iniciando baner -------------------------------->
+
+    <div id="baner"></div>
+
+    <!------------------------------- parte trailer -------------------------------->
+    <div id="trailer-container">
+      <div class="content">
+        <video controls class="trailer">
+          <source
+            src="./videos/The Batman - DC FanDome Teaser.mp4"
+            type="video/mp4"
+          />
+          Seu navegador não possui suporte para video.
+        </video>
+        <!---------------------------- div discrição do trailer ----------------------->
+        <div id="sinopse">
+          <p class="description">Após dois anos espreitando as ruas como o Batman, Bruce Wayne se encontra nas profundezas mais  sombrias de gotham city. 
+            com aliados confiaveis, o vigilante solitario se estabelece com a personificação da vingança para a população.
+          </p>
+<!-- botão ir para a pagina comprar ingresso -->
+<button class="button">Comprar ingresso</button>
+        </div>
+      </div>
+    </div>
+    <!-- parte do trailer finalizado -->
+    <!------------------------- parte das cards dos atores --------------------------->
+    <!----------------Div principal que em=ngloba todos os card---------------------->
+    <div class="actor-cards-container">
+<div class="cards-content">
+<div class="card baner-1"> <span class="texto">  Robert Pattison - batman  </span> </div>
+<div class="card baner-2"> <span class="texto">joaquin  phoenix - coringa </span> </div>
+<div class="card baner-3"> <span class="texto">Clooney - Robin </span> </div>
+
+</div>
+    </div>
+  </body>
+</html>
